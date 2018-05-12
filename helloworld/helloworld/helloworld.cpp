@@ -8,6 +8,7 @@ int main()
 {
 	cout << "Hellow world!!" << endl;
 	cout << "what f**k" <<endl;
+	cout<<"八嘎"<<endl;
     return 0;
 }
 
