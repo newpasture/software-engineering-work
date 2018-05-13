@@ -9,7 +9,8 @@ int main()
 	
 	cout << "what f**k" <<endl;
 	cout<<"八嘎"<<endl;
-	cout << "oh, xuan" <<ednl;
+	cout << "oh, xuan" <<endl;
+	cout << "大爷来次一游" << endl;
     return 0;
 }
 
