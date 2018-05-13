@@ -11,6 +11,7 @@ int main()
 	cout<<"八嘎"<<endl;
 	cout << "oh, xuan" <<endl;
 	cout << "大爷来次一游" << endl;
+	cout << "OH,shuan!" << endl;
     return 0;
 }
 
