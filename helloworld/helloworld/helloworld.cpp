@@ -3,15 +3,16 @@
 
 #include "stdafx.h"
 #include<iostream>
+#include <windows.h>  
+#include <sqlext.h>  
+#include <stdio.h>  
+#include <time.h>  
+
 using namespace std;
 int main()
 {
 	
-	cout << "what f**k" <<endl;
-	cout<<"八嘎"<<endl;
-	cout << "oh, xuan" <<endl;
-	cout << "大爷来次一游" << endl;
-	cout << "OH,shuan!" << endl;
-    return 0;
+
+	return 0;
 }
 
