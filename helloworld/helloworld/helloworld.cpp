@@ -51,7 +51,7 @@ int main(void)
 	system("pause");
 #endif  
 	//连接数据库  
-	if (mysql_real_connect(&mydata, "localhost", "root", "chensijie", "sct", 3306, NULL, 0) != NULL)   //这里的地址，用户名，密码，端口可以根据自己本地的情况更改  
+	if (mysql_real_connect(&mydata, "localhost", "root", "1234", "travel", 1234, NULL, 0) != NULL)   //这里的地址，用户名，密码，端口可以根据自己本地的情况更改  
 		cout << "mysql_real_connect() succeed" << endl;
 	else
 	{
