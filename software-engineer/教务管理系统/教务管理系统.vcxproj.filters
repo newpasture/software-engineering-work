@@ -46,6 +46,9 @@
     <QtUic Include="QtGuiApplication.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="DialogButtonRight.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="QtGuiApplication.qrc">

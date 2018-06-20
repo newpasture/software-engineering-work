@@ -120,6 +120,7 @@
     <QtMoc Include="QtGuiApplication.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="DialogButtonRight.ui" />
     <QtUic Include="QtGuiApplication.ui" />
   </ItemGroup>
   <ItemGroup>
