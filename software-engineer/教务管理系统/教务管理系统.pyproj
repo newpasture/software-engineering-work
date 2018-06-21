@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6f479699-c206-44de-9433-757585627b62}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>code.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="code.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="static\assets\css\admin.css" />
+    <Content Include="static\assets\css\amazeui.min.css" />
+    <Content Include="static\assets\css\app.css" />
+    <Content Include="static\assets\img\32.jpg" />
+    <Content Include="static\assets\img\43.jpg" />
+    <Content Include="static\assets\img\a1.png" />
+    <Content Include="static\assets\img\a10.png" />
+    <Content Include="static\assets\img\a2.png" />
+    <Content Include="static\assets\img\a3.png" />
+    <Content Include="static\assets\img\a4.png" />
+    <Content Include="static\assets\img\a5.png" />
+    <Content Include="static\assets\img\a6.png" />
+    <Content Include="static\assets\img\a7.png" />
+    <Content Include="static\assets\img\a8.png" />
+    <Content Include="static\assets\img\a9.png" />
+    <Content Include="static\assets\img\lbbg.png" />
+    <Content Include="static\assets\img\logo.png" />
+    <Content Include="static\assets\img\syncfusion-icons-white.png" />
+    <Content Include="static\assets\img\user01.png" />
+    <Content Include="static\assets\img\user02.png" />
+    <Content Include="static\assets\img\user03.png" />
+    <Content Include="static\assets\img\user04.png" />
+    <Content Include="static\assets\img\user05.png" />
+    <Content Include="static\assets\img\user06.png" />
+    <Content Include="static\assets\img\user07.png" />
+    <Content Include="static\assets\i\app-icon72x72%402x.png" />
+    <Content Include="static\assets\i\examples\admin-chrome.png" />
+    <Content Include="static\assets\i\examples\admin-firefox.png" />
+    <Content Include="static\assets\i\examples\admin-ie.png" />
+    <Content Include="static\assets\i\examples\admin-opera.png" />
+    <Content Include="static\assets\i\examples\admin-safari.png" />
+    <Content Include="static\assets\i\examples\adminPage.png" />
+    <Content Include="static\assets\i\examples\blogPage.png" />
+    <Content Include="static\assets\i\examples\landing.png" />
+    <Content Include="static\assets\i\examples\landingPage.png" />
+    <Content Include="static\assets\i\examples\loginPage.png" />
+    <Content Include="static\assets\i\examples\sidebarPage.png" />
+    <Content Include="static\assets\i\favicon.png" />
+    <Content Include="static\assets\i\startup-640x1096.png" />
+    <Content Include="static\assets\js\amazeui.min.js" />
+    <Content Include="static\assets\js\app.js" />
+    <Content Include="static\assets\js\echarts.min.js" />
+    <Content Include="static\assets\js\iscroll.js" />
+    <Content Include="static\assets\js\jquery.min.js" />
+    <Content Include="templates\login.html" />
+    <Content Include="templates\student.html" />
+    <Content Include="templates\student_index.html" />
+    <Content Include="templates\teacher.html" />
+    <Content Include="templates\teacher_index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\" />
+    <Folder Include="static\assets\" />
+    <Folder Include="static\assets\css" />
+    <Folder Include="static\assets\i" />
+    <Folder Include="static\assets\img" />
+    <Folder Include="static\assets\i\examples" />
+    <Folder Include="static\assets\js" />
+    <Folder Include="templates" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
